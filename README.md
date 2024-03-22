@@ -21,13 +21,13 @@ CREATE TABLE Livros (
     Titulo NVARCHAR(100),
     Autor NVARCHAR(100),
     Categoria NVARCHAR(50),
-    Editora NVARCHAR(50),
+    Editora NVARCHAR(50)
 );
 GO
 
 CREATE TABLE EmprestimosLivros (
     Codigo INT PRIMARY KEY,
     DataRetirada DATE,
-    DataEntrega DATE,
+    DataEntrega DATE
 );
 GO
